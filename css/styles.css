@@ -303,6 +303,10 @@ a {
   text-align: center;
 }
 
+.title-item .text {
+  margin-bottom: 8px;
+}
+
 .title-list .title-item {
   background-color: #fff;
 }
@@ -316,19 +320,16 @@ a {
 .team-icon-item {
 }
 .team-socnet-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   background-color: #4d5ae5;
   width: 40px;
   height: 40px;
-  margin-top: 8px;
-  padding-bottom: 32px;
 }
 .team-socnet-link-icon {
   fill: #f4f4fd;
-  position: relative;
-  top: 12px;
-  left: 12px;
 }
 
 /* qrtr-section */
